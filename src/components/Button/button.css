@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap");
+
+.btn {
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-flex;
+  text-align: center;
+}
+
+/* BUTTON TYPE */
+.btn-primary {
+  color: white;
+  background-color: #69984c;
+}
+.btn-secondary {
+  border: 1px solid #6e6e6e;
+  color: #201f1e;
+  background-color: transparent;
+}
+.btn-tertiary {
+  background-color: transparent;
+  color: #0078d4;
+}
+.btn-danger {
+  color: white;
+  background-color: #d92c2c;
+}
+
+/* BUTTON STATE */
+.btn-disabled {
+  color: #919191;
+  background-color: #f8f8f8;
+}
+
+/* BUTTON SIZE */
+.btn-small {
+  padding: 6px 8px;
+}
+.btn-medium {
+  padding: 6px 16px;
+}
+.btn-large {
+  padding: 6px 20px;
+}

@@ -16,52 +16,76 @@
   color: #69984c;
 }
 
-.metadata-small {
+.metadata-01 {
   font-size: 10px;
   line-height: 12px;
 }
 
-.metadata-medium {
+.metadata-02 {
   font-size: 12px;
   line-height: 16px;
 }
 
-.body-text {
+.body-short-01 {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.body-short-02 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.body-long-01 {
   font-size: 14px;
   line-height: 20px;
 }
 
-.subject-title {
+.body-long-02 {
   font-size: 16px;
-  line-height: 22px;
-}
-
-.panel-header {
-  font-size: 18px;
   line-height: 24px;
 }
 
-.panel-header-large {
+.heading-01 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.heading-02 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.heading-03 {
+  font-weight: 500;
   font-size: 20px;
-  line-height: 28px;
+  line-height: 24px;
 }
 
-.page-title {
+.heading-04 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.heading-05 {
   font-size: 28px;
-  line-height: 36px;
+  line-height: 32px;
 }
 
-.hero-title-small {
+.heading-06 {
   font-size: 32px;
   line-height: 40px;
 }
 
-.hero-title-large {
+.heading-07 {
   font-size: 42px;
-  line-height: 52px;
+  line-height: 56px;
 }
 
-.hero-title-extralarge {
-  font-size: 68px;
-  line-height: 76px;
+.heading-08 {
+  font-size: 54px;
+  line-height: 64px;
 }
