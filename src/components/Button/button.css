@@ -104,18 +104,14 @@
 
 /* BUTTON TYPE */
 .btn-prepend {
-  display: flex;
   font-size: 14px;
-  line-height: 0.5;
   padding-right: 4px;
   align-items: center;
   justify-content: center;
 }
 .btn-append {
-  display: flex;
   font-size: 14px;
-  line-height: 0.5;
-  margin-left: 4px;
+  padding-left: 60px;
   align-items: center;
   justify-content: center;
 }
