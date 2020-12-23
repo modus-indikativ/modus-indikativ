@@ -2,12 +2,11 @@ import React from 'react'
 import "./button.css"
 import PropTypes from "prop-types"
 
-export const Button = ({ type, backgroundColor, rest, size, label, ...props }) => {
-	const state = rest ? 'btn-rest' : 'btn-disabled';
+export const Button = ({ theme, backgroundColor, size, state, label, ...props }) => {
   return (
     <button
       type="button"
-      className={['btn', `btn-${size}`, `btn-${type}`, state].join(' ')}
+      className={['btn', `btn-${size}`, `btn-${theme}-${state}`].join(' ')}
       style={backgroundColor && { backgroundColor }}
       {...props}
     >
@@ -17,8 +16,8 @@ export const Button = ({ type, backgroundColor, rest, size, label, ...props }) =
 };
 
 Button.propTypes = {
-	type: PropTypes.oneOf(['primary', 'secondary', 'tertiary', 'danger']),
-	rest: PropTypes.bool,
+  theme: PropTypes.oneOf(['primary', 'secondary', 'tertiary', 'danger']),
+  state: PropTypes.oneOf(['rest', 'hover', 'onclick', 'disabled']),
   backgroundColor: PropTypes.string,
 	size: PropTypes.oneOf(['small', 'medium', 'large']),
   label: PropTypes.string.isRequired,
@@ -26,8 +25,8 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
+  state: 'rest',
   backgroundColor: null,
-	rest: true,
   size: 'medium',
   onClick: undefined,
 };

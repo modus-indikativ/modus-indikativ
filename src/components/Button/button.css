@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap");
 
 .btn {
   border: 0;
@@ -8,41 +8,114 @@
   font-weight: 400;
   font-size: 14px;
   display: inline-flex;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
 }
 
-/* BUTTON TYPE */
-.btn-primary {
+/* BUTTON STATE PRIMARY*/
+.btn-primary-rest {
   color: white;
   background-color: #69984c;
 }
-.btn-secondary {
+.btn-primary-hover {
+  color: white;
+  background-color: #78a25e;
+}
+.btn-primary-onclick {
+  color: white;
+  background-color: #547a3d;
+}
+.btn-primary-disabled {
+  color: #919191;
+  background-color: #f8f8f8;
+}
+
+/* BUTTON STATE SECONDARY */
+.btn-secondary-rest {
   border: 1px solid #6e6e6e;
   color: #201f1e;
   background-color: transparent;
 }
-.btn-tertiary {
+.btn-secondary-hover {
+  border: 1px solid #6e6e6e;
+  color: #201f1e;
+  background-color: #f1f1f1;
+}
+.btn-secondary-onclick {
+  border: 1px solid #6e6e6e;
+  color: #201f1e;
+  background-color: #e1e1e1;
+}
+.btn-secondary-disabled {
+  color: #919191;
+  background-color: #f1f1f1;
+}
+
+/* BUTTON STATE TERTIARY */
+.btn-tertiary-rest {
   background-color: transparent;
   color: #0078d4;
 }
-.btn-danger {
+.btn-tertiary-hover {
+  background-color: #f8f8f8;
+  color: #0078d4;
+}
+.btn-tertiary-onclick {
+  background-color: #f1f1f1;
+  color: #0078d4;
+}
+.btn-tertiary-disabled {
+  background-color: transparent;
+  color: #acacac;
+}
+
+/* BUTTON STATE DANGER */
+.btn-danger-rest {
   color: white;
   background-color: #d92c2c;
 }
-
-/* BUTTON STATE */
-.btn-disabled {
+.btn-danger-hover {
+  color: white;
+  background-color: #e05454;
+}
+.btn-danger-onclick {
+  color: white;
+  background-color: #8b1c1c;
+}
+.btn-danger-disabled {
   color: #919191;
-  background-color: #f8f8f8;
+  background-color: #ffebeb;
 }
 
 /* BUTTON SIZE */
 .btn-small {
   padding: 6px 8px;
+  height: 24px;
 }
 .btn-medium {
   padding: 6px 16px;
+  height: 32px;
 }
 .btn-large {
   padding: 6px 20px;
+  height: 40px;
+}
+
+/* BUTTON TYPE */
+.btn-prepend {
+  display: flex;
+  font-size: 14px;
+  line-height: 0.5;
+  padding-right: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.btn-append {
+  display: flex;
+  font-size: 14px;
+  line-height: 0.5;
+  margin-left: 4px;
+  align-items: center;
+  justify-content: center;
 }

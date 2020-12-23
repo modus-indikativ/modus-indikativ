@@ -13,24 +13,24 @@ const Template = (args) => <Button {...args} />
 
 export const Primary = Template.bind({});
 Primary.args = {
-	type: "primary",
+	theme: "primary",
 	label: "Primary"
 }
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-	type: "secondary",
+	theme: "secondary",
 	label: "Secondary"
 }
 
 export const Tertiary = Template.bind({});
 Tertiary.args = {
-	type: "tertiary",
+	theme: "tertiary",
 	label: "Tertiary"
 }
 
 export const Danger = Template.bind({});
 Danger.args = {
-	type: "danger",
+	theme: "danger",
 	label: "Danger"
 }
