@@ -6,24 +6,21 @@ export default{
 	component: Typography
 }
 
-export const metadataSmall = () => <Typography variant="metadata-small">Metadata Small</Typography>
-export const metadataMedium = () => <Typography variant="metadata-medium">Metadata Medium</Typography>
-export const bodyText = () => <Typography variant="body-text">Body Text</Typography>
-export const subjectTitle = () => <Typography variant="subject-title">Subject Title</Typography>
-export const panelHeader = () => <Typography variant="panel-header">Panel Header</Typography>
-export const panelHeaderLarge = () => <Typography variant="panel-header-large">Panel Header Large</Typography>
-export const pageTitle = () => <Typography variant="page-title">Page Title</Typography>
-export const heroTitleSmall = () => <Typography variant="hero-title-small">Hero Title Small</Typography>
-export const heroTitleLarge = () => <Typography variant="hero-title-large">Hero Title Large</Typography>
-export const heroTitleXL = () => <Typography variant="hero-title-extralarge">Hero Title Extra Large</Typography>
-
-export const metadataSmallSemibold = () => <Typography variant="metadata-small bold">Metadata Small</Typography>
-export const metadataMediumSemibold = () => <Typography variant="metadata-medium bold">Metadata Medium</Typography>
-export const bodyTextSemibold = () => <Typography variant="body-text bold">Body Text</Typography>
-export const subjectTitleSemibold = () => <Typography variant="subject-title bold">Subject Title</Typography>
-export const panelHeaderSemibold = () => <Typography variant="panel-header bold">Panel Header</Typography>
-export const panelHeaderLargeSemibold = () => <Typography variant="panel-header-large bold">Panel Header Large</Typography>
-export const pageTitleSemibold = () => <Typography variant="page-title bold">Page Title</Typography>
-export const heroTitleSmallSemibold = () => <Typography variant="hero-title-small bold">Hero Title Small</Typography>
-export const heroTitleLargeSemibold = () => <Typography variant="hero-title-large bold">Hero Title Large</Typography>
-export const heroTitleXLSemibold = () => <Typography variant="hero-title-extralarge bold">Hero Title Extra Large</Typography>
+export const metadata01 = () => <Typography variant="metadata-01">Metadata 01</Typography>
+export const metadata02 = () => <Typography variant="metadata-02">Metadata 02</Typography>
+export const bodyShort01 = () => <Typography variant="body-short-01">Body Short 01</Typography>
+export const bodyShortBold01 = () => <Typography variant="body-short-01 bold">Body Short 01</Typography>
+export const bodyShort02 = () => <Typography variant="body-short-01">Body Short 02</Typography>
+export const bodyShortBold02 = () => <Typography variant="body-short-01 bold">Body Short 02</Typography>
+export const bodyLong01 = () => <Typography variant="body-long-01">Body Long 01</Typography>
+export const bodyLongBold01 = () => <Typography variant="body-long-01 bold">Body Long 01</Typography>
+export const bodyLong02 = () => <Typography variant="body-long-02">Body Long 02</Typography>
+export const bodyLongBold02 = () => <Typography variant="body-long-02 bold">Body Long 02</Typography>
+export const heading01 = () => <Typography variant="heading-01">Heading 01</Typography>
+export const heading02 = () => <Typography variant="heading-02">Heading 02</Typography>
+export const heading03 = () => <Typography variant="heading-03">Heading 03</Typography>
+export const heading04 = () => <Typography variant="heading-04">Heading 04</Typography>
+export const heading05 = () => <Typography variant="heading-05">Heading 05</Typography>
+export const heading06 = () => <Typography variant="heading-06">Heading 06</Typography>
+export const heading07 = () => <Typography variant="heading-07">Heading 07</Typography>
+export const heading08 = () => <Typography variant="heading-08">Heading 08</Typography>
