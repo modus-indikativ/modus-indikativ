@@ -6,6 +6,7 @@
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  line-height: 16px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -14,44 +15,37 @@
 
 /* BUTTON STATE PRIMARY*/
 .btn-primary-rest {
-  color: white;
+  color: #ffffff;
   background-color: #69984c;
 }
-
 .btn-primary-hover {
-  color: white;
+  color: #ffffff;
   background-color: #78a25e;
 }
-
 .btn-primary-onclick {
-  color: white;
-  background-color: #547a3d;
+  color: #ffffff;
+  background-color: #4a6a35;
 }
-
 .btn-primary-disabled {
-  color: #919191;
-  background-color: #f8f8f8;
+  color: #ffffff;
+  background-color: #78a25e;
 }
 
 /* BUTTON STATE SECONDARY */
 .btn-secondary-rest {
-  border: 1px solid #6e6e6e;
-  color: #201f1e;
+  border: 1px solid #605e5c;
   background-color: transparent;
 }
-
 .btn-secondary-hover {
-  border: 1px solid #6e6e6e;
+  border: 1px solid #605e5c;
   color: #201f1e;
   background-color: #f1f1f1;
 }
-
 .btn-secondary-onclick {
-  border: 1px solid #6e6e6e;
-  color: #201f1e;
-  background-color: #e1e1e1;
+  border: 1px solid #605e5c;
+  color: #292929;
+  background-color: #f8f8f8;
 }
-
 .btn-secondary-disabled {
   color: #919191;
   background-color: #f1f1f1;

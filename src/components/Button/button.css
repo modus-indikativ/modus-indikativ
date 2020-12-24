@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap");
-
+/*This is the mapped css fles, do not change anything inside this file. 
+Make changes in source sass files (button.scss) instead*/
+/* use "sass --watch sass-modules\button.scss:src\components\Button\button.css" 
+when you try to make changes inside button.scss to automatically update 
+the button.css file */
 .btn {
   border: 0;
   border-radius: 2px;
@@ -7,6 +11,7 @@
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  line-height: 16px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -15,37 +20,36 @@
 
 /* BUTTON STATE PRIMARY*/
 .btn-primary-rest {
-  color: white;
+  color: #ffffff;
   background-color: #69984c;
 }
 .btn-primary-hover {
-  color: white;
+  color: #ffffff;
   background-color: #78a25e;
 }
 .btn-primary-onclick {
-  color: white;
-  background-color: #547a3d;
+  color: #ffffff;
+  background-color: #4a6a35;
 }
 .btn-primary-disabled {
-  color: #919191;
-  background-color: #f8f8f8;
+  color: #ffffff;
+  background-color: #78a25e;
 }
 
 /* BUTTON STATE SECONDARY */
 .btn-secondary-rest {
-  border: 1px solid #6e6e6e;
-  color: #201f1e;
+  border: 1px solid #605e5c;
   background-color: transparent;
 }
 .btn-secondary-hover {
-  border: 1px solid #6e6e6e;
+  border: 1px solid #605e5c;
   color: #201f1e;
   background-color: #f1f1f1;
 }
 .btn-secondary-onclick {
-  border: 1px solid #6e6e6e;
-  color: #201f1e;
-  background-color: #e1e1e1;
+  border: 1px solid #605e5c;
+  color: #292929;
+  background-color: #f8f8f8;
 }
 .btn-secondary-disabled {
   color: #919191;
@@ -57,14 +61,17 @@
   background-color: transparent;
   color: #0078d4;
 }
+
 .btn-tertiary-hover {
   background-color: #f8f8f8;
   color: #0078d4;
 }
+
 .btn-tertiary-onclick {
   background-color: #f1f1f1;
   color: #0078d4;
 }
+
 .btn-tertiary-disabled {
   background-color: transparent;
   color: #acacac;
@@ -75,14 +82,17 @@
   color: white;
   background-color: #d92c2c;
 }
+
 .btn-danger-hover {
   color: white;
   background-color: #e05454;
 }
+
 .btn-danger-onclick {
   color: white;
   background-color: #8b1c1c;
 }
+
 .btn-danger-disabled {
   color: #919191;
   background-color: #ffebeb;
@@ -93,10 +103,12 @@
   padding: 6px 8px;
   height: 24px;
 }
+
 .btn-medium {
   padding: 6px 16px;
   height: 32px;
 }
+
 .btn-large {
   padding: 6px 20px;
   height: 40px;
@@ -109,9 +121,12 @@
   align-items: center;
   justify-content: center;
 }
+
 .btn-append {
   font-size: 14px;
   padding-left: 60px;
   align-items: center;
   justify-content: center;
 }
+
+/*# sourceMappingURL=button.css.map */

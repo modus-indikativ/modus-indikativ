@@ -2,12 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap");
 
 $weight-regular: 400;
+$weight-bold: 500;
 
 @mixin body-regular01 {
-    font-weight: 400;
+    font-weight: $weight-regular;
     font-size: 14px;
+    line-height: 16px;
 }
-
+/*This is the mapped css fles, do not change anything inside this file. 
+Make changes in source sass files (button.scss) instead*/
+/* use "sass --watch sass-modules\button.scss:src\components\Button\button.css" 
+when you try to make changes inside button.scss to automatically update 
+the button.css file */
 .btn {
   border: 0;
   border-radius: 2px;
@@ -21,42 +27,45 @@ $weight-regular: 400;
 }
 
 /* BUTTON STATE PRIMARY*/
-.btn-primary-rest {
-  color: white;
-  background-color: colors.$empofarm-primary;
-}
-.btn-primary-hover {
-  color: white;
-  background-color: #78a25e;
-}
-.btn-primary-onclick {
-  color: white;
-  background-color: #547a3d;
-}
-.btn-primary-disabled {
-  color: #919191;
-  background-color: #f8f8f8;
+.btn-primary {
+  &-rest {
+    color: colors.$gray0;
+    background-color: colors.$empofarm-primary;
+  }
+  &-hover {
+    color: colors.$gray0;
+    background-color: colors.$empofarm-tint01;
+  }
+  &-onclick {
+    color: colors.$gray0;
+    background-color: colors.$empofarm-shade03;
+  }
+  &-disabled {
+    color: colors.$gray0;
+    background-color: colors.$empofarm-tint01;
+  }
 }
 
 /* BUTTON STATE SECONDARY */
-.btn-secondary-rest {
-  border: 1px solid #6e6e6e;
-  color: #201f1e;
-  background-color: transparent;
-}
-.btn-secondary-hover {
-  border: 1px solid #6e6e6e;
-  color: #201f1e;
-  background-color: #f1f1f1;
-}
-.btn-secondary-onclick {
-  border: 1px solid #6e6e6e;
-  color: #201f1e;
-  background-color: #e1e1e1;
-}
-.btn-secondary-disabled {
-  color: #919191;
-  background-color: #f1f1f1;
+.btn-secondary {
+  &-rest {
+    border: 1px solid colors.$gray500;
+    background-color: transparent;
+  }
+  &-hover {
+    border: 1px solid colors.$gray500;
+    color: #201f1e;
+    background-color: #f1f1f1;
+  }
+  &-onclick {
+    border: 1px solid colors.$gray500;
+    color: colors.$gray800;
+    background-color: colors.$gray25;
+  }
+  &-disabled {
+    color: colors.$gray400;
+    background-color: colors.$gray50;
+  }
 }
 
 /* BUTTON STATE TERTIARY */
